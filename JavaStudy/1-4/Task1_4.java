@@ -47,7 +47,7 @@ public class Task1_4 {
 }
         // ⑤ 名前もパスワードも間違っていた場合は、「 入力情報に誤りがあります。 」と出力してください。
 	else{
-	System.out.println("入力情報に誤りがあります。");
+	System.out.println("入力情報に誤りがあります。"); 
 }
 	
     }
