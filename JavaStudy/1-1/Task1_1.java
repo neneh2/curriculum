@@ -10,7 +10,7 @@
 public class Task1_1 {
 
     public static void main(String[] args) {
-
+        //aaaa
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
 	int hogeInt = 50;
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
