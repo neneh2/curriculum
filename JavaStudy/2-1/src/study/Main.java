@@ -25,11 +25,11 @@
 
 		        //③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
 		        //   要素が奇数の場合には「nは奇数です。」と出力されます。
-		        for (int n =0; n< arr.length; n++) {
-		        	if (n % 2 != 0) {
-		        		System.out.println(n+"は奇数です");
-		        	}
-		        	}
+
+		        	for (int num =0; num<arr.length; num++) {
+		        	isOdd(num);
+		       }
+
 		        }
 
 
@@ -39,9 +39,7 @@
 		    //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
 		    //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
 		    public static String getName (String firstName, String lastName) {
-		    	String firs_tName = firstName;
-		    	String last_Name = lastName;
-		    	return firs_tName + last_Name;
+		    	return firstName + lastName;
 		    }
 
 
