@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px){
+    .header{
+        width: 300px;
+    }
+    .left{
+        width: 100px;
+    }
+    .yellow{
+        width: 125px;
+    }
+    .blue{
+        width: 125px;
+    }
+    .orange{
+        width: 75px;
+    }
+    .red{
+        width: 200px;
+    }
+    .footer{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .wrapper{
+        width: 150px;
+    }
+    .center{
+        float: none;
+    }
+    .center-left{
+        float:none;
+    }
+    .left{
+        float:none;
+
+    }
+}
+
