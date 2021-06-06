@@ -1,0 +1,28 @@
+@media screen and(max-width:479px){
+    .wrapper{
+        width: 200px;
+    }
+    .h-box{
+        width: 60px;
+        height: 160px;
+        right: 70px;
+    }
+    .h-box2{
+        top: 60px;
+        left: 10px; 
+    }
+    .h-box3{
+        top: 110px;
+        left: 10px;
+    }
+    .left{
+        float: none;
+    }
+    .right{
+        float: none;
+    }
+    .r-box{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+}
