@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.header{
+	background-color: gray;
+}
+
+.footer{
+	background-color: gray;
+}
+
+.f-lavel{
+	display: inline-block;
+padding: 10px;
+color: white;
+}
+
+.h-login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.h-date{
+	padding: 10px;
+font-size: 10px;
+}
+
+.wrap{
+	padding-top: 50px;
+padding-bottom: 50px;
+}

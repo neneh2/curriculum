@@ -1,0 +1,72 @@
+.clearfix ::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 350px;
+    width: 350px;
+}
+.ue{
+    height: 100px;
+    width: 350px;
+}
+.mannaka{
+    
+}
+.sita{
+
+}
+.kiiro{
+    height: 100px;
+    background-color: #ffff66;
+    float: left;
+    width: 150px;
+}
+.aka{
+    height: 150px;
+    width: 150px;
+    background-color: #ff3333;
+    float: left;
+}
+.orenji{
+    height: 100px;
+    width: 150px;
+    background-color: #ff9966;
+    float: left;
+}
+.haiiro{
+    height: 100px;
+    width: 200px;
+    background-color:#666666;
+    float: left;
+}
+
+.ao{
+    height: 150px;
+    width: 30%;
+    background-color: #3366ff;
+    float: left;
+}
+.kimidori{
+    height: 150px;
+    width: 27%;
+    background-color: #669933;
+    float: left;
+}
+.be-ju{
+    height: 100px;
+    width: 30%;
+    background-color: #ffffcc;
+    float: left;
+}
+.murasaki{
+    height: 100px;
+    width: 27%;
+    background-color: #330066;
+    float: left;
+}
