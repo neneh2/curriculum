@@ -19,7 +19,7 @@ public class EmployeeController extends HttpServlet {
 
  try {
   // 問① index.htmlから送信されたIDとPassWordの値を取得できるように修正しましょう。
- String id = request.getParameter("ここを改修");
+ String id = request.getParameter("こ");
  String password = request.getParameter("ここを改修");
 
  /*
