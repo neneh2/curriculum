@@ -21,11 +21,11 @@ public class EmployeeService {
  /** ドライバーのクラス名 */
  private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
  /** ・JDMC接続先情報 */
- private static final String JDBC_CONNECTION = "ここを改修";
+ private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/Employee";
  /** ・ユーザー名 */
  private static final String USER = "postgres";
  /** ・パスワード */
- private static final String PASS = "postgres";
+ private static final String PASS = "5432";
  /** ・タイムフォーマット */
  private static final String TIME_FORMAT = "yyyy/MM/dd HH:mm:ss";
 
