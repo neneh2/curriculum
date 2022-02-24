@@ -31,11 +31,11 @@ public class EmployeeService {
 
   // 問② 入力された値で、UPDATEする文
  /** ・SQL UPDATE文 */
- private static final String SQL_UPDATE = "ここを改修";
+ private static final String SQL_UPDATE = "";
 
   // 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
  /** ・SQL SELECT文 */
- private static final String SQL_SELECT = "ここを改修";
+ private static final String SQL_SELECT = "SELECT"+"FROM Employee";
 
  EmployeeBean employeeDate = null;
 
@@ -82,15 +82,15 @@ public class EmployeeService {
 
  while (resultSet.next()) {
   // 問⑦ tmpName,tmpComment,tmpLoginTimeに適当な値を入れてください。
- String tmpName = resultSet.getString("ここを改修");
- String tmpComment = resultSet.getString("ここを改修");
- String tmpLoginTime = resultSet.getString("ここを改修");
+ String tmpName = resultSet.getString("Name");
+ String tmpComment = resultSet.getString("Comment");
+ String tmpLoginTime = resultSet.getString("Login_Time");
 
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
- employeeDate.setName("ここ改修");
- employeeDate.setComment("ここ改修");
- employeeDate.setLogin_Time("ここ改修");
+ employeeDate.setName(tmpName);
+ employeeDate.setComment(tmpComment);
+ employeeDate.setLogin_Time(tmpLoginTime);
  }
 
   // forName()で例外発生
