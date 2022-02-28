@@ -8,6 +8,7 @@ public class EmployeeBean {
     private String Name;
     private String Comment;
     private String Login_Time;
+    
     public void setId(String Id) {
         this.Id = Id;
     }

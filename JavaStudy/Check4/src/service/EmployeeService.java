@@ -31,11 +31,11 @@ public class EmployeeService {
 
   // 問② 入力された値で、UPDATEする文
  /** ・SQL UPDATE文 */
- private static final String SQL_UPDATE = "UPDATE employee_table SET login_time = ? where id = ?";
+ private static final String SQL_UPDATE = "UPDATE employee_table SET login_time = ? where id = ? ";
 
   // 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
  /** ・SQL SELECT文 */
- private static final String SQL_SELECT = "SELECT * FROM employee_table where id = ? and password = ?";
+ private static final String SQL_SELECT = "SELECT * FROM employee_table where id = ? and password = ? ";
 
  EmployeeBean employeeDate = null;
 
@@ -64,8 +64,9 @@ public class EmployeeService {
  * 任意のユーザーのログインタイムを更新できるように、プリペアドステートメントを記述。
  */
 
+System.out.println(id);
   // preparedStatementに実行したいSQLを格納
- preparedStatement  = connection.prepareStatement(SQL_UPDATE);
+ preparedStatement = connection.prepareStatement(SQL_UPDATE);
   // 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
  preparedStatement.setString(1, login_time);
  preparedStatement.setString(2, id);
