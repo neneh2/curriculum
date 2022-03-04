@@ -64,7 +64,6 @@ public class EmployeeService {
  * 任意のユーザーのログインタイムを更新できるように、プリペアドステートメントを記述。
  */
 
-System.out.println(id);
   // preparedStatementに実行したいSQLを格納
  preparedStatement = connection.prepareStatement(SQL_UPDATE);
   // 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
