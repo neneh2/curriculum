@@ -1,0 +1,42 @@
+情報: Serverのバージョン名:     Apache Tomcat/8.5.61 [金 3 11 19:00:07 JST 2022]
+情報: Server ビルド:            Dec 3 2020 14:03:28 UTC [金 3 11 19:00:07 JST 2022]
+情報: サーバーのバージョン番号: 8.5.61.0 [金 3 11 19:00:07 JST 2022]
+情報: OS 名:                    Mac OS X [金 3 11 19:00:07 JST 2022]
+情報: OS バージョン:            10.16 [金 3 11 19:00:07 JST 2022]
+情報: アーキテクチャ:           x86_64 [金 3 11 19:00:07 JST 2022]
+情報: Java Home:                /Applications/Eclipse_2020-12.app/Contents/java/8/Home/jre [金 3 11 19:00:07 JST 2022]
+情報: JVM バージョン:           1.8.0_202-b08 [金 3 11 19:00:07 JST 2022]
+情報: JVM ベンダ:               Oracle Corporation [金 3 11 19:00:07 JST 2022]
+情報: CATALINA_BASE:            /Users/nene/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp0 [金 3 11 19:00:07 JST 2022]
+情報: CATALINA_HOME:            /Applications/Eclipse_2020-12.app/Contents/tomcat/8 [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Djava.ext.dirs=/Applications/Eclipse_2020-12.app/Contents/java/8/Home/jre/lib/ext [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.base=/Users/nene/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp0 [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.home=/Applications/Eclipse_2020-12.app/Contents/tomcat/8 [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Dwtp.deploy=/Users/nene/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Djava.endorsed.dirs=/Applications/Eclipse_2020-12.app/Contents/tomcat/8/endorsed [金 3 11 19:00:07 JST 2022]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [金 3 11 19:00:07 JST 2022]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/nene/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。 [金 3 11 19:00:07 JST 2022]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [金 3 11 19:00:07 JST 2022]
+情報: Using a shared selector for servlet write/read [金 3 11 19:00:07 JST 2022]
+情報: Initialization processed in 891 ms [金 3 11 19:00:07 JST 2022]
+情報: サービス [Catalina] を起動します [金 3 11 19:00:07 JST 2022]
+情報: Starting Servlet Engine: Apache Tomcat/8.5.61 [金 3 11 19:00:07 JST 2022]
+警告: [4.0] は未知のバージョン文字列です。既定値を使用します。 [金 3 11 19:00:08 JST 2022]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [金 3 11 19:00:08 JST 2022]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [金 3 11 19:00:08 JST 2022]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [金 3 11 19:00:08 JST 2022]
+情報: Server startup in 747 ms [金 3 11 19:00:08 JST 2022]
+重大: パス[/MVC_Task]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/login.jsp] の中の[11]行目でエラーが発生しました
+Lambda expressions are allowed only at source level 1.8 or above
+8: 
+9: <%
+10:     //リクエストより社員番号を取得: 関数型インターフェース（ラムダ式）
+11:     Function<HttpServletRequest, Object[]> rmdGetResponseInfo = (rmdRequest) -> {
+12:         // request: responseBean
+13:         ResponseBean rb = (ResponseBean) request.getAttribute("responseBean");
+14:         int requestStatus = 0;
+
+
+Stacktrace:]が根本的要因と共に投げられました。 [金 3 11 19:00:09 JST 2022]
